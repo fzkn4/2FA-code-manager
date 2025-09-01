@@ -6,19 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview --port $PORT --host 0.0.0.0"
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.1",
+    "@vitejs/plugin-react": "^4.0.3",
     "firebase": "^12.2.1",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recharts": "^3.1.2",
-    "vite": "^4.5.14",
-    "@vitejs/plugin-react": "^4.0.3"
+    "serve": "^14.2.4",
+    "vite": "^4.5.14"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
