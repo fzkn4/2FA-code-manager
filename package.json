@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
